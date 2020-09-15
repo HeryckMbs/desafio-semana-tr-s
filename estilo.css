@@ -1,0 +1,171 @@
+body{
+    background-color: #8FBC8F;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+html, body {
+    margin: 0;
+}
+header{
+    display: block;
+    height: 80px;
+    width: 100%;
+  
+       
+}
+#logo{
+    margin-top: 0px;
+    margin-left: 5%;
+    padding: 0%;
+    width:200px;
+    height:100px;
+    
+   
+}
+
+#imagem_fundo {
+    position: relative;
+    background: url("f2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+#titulo {
+    color: white;
+    padding-top: 12%;
+    font-size: 70px;
+    line-height: 0.6;
+     
+    
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+    padding-bottom: 10%;
+}
+
+
+    .icones{
+        width: 100px;
+        margin-top: 10px;
+        position: relative;
+       
+      
+        
+    }
+    
+
+#secaodois{
+    
+    background-color:#92ad66;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#secao {
+    
+    background-color:#639a67;
+    display: flex;      
+    
+}
+#secaodois {
+    background-color:#92ad66;
+    width: 100%;
+  
+    text-align: center;
+    margin-left: 3.1%;
+    margin-top: 5px;
+    background-color:#639a67;
+
+    padding-right: 11%;
+    padding-left: 11%;
+    width: 71%;
+    font-size: 20px;
+}
+#secaodoiss {
+    background-color:#92ad66;
+    width: 100%;
+  
+    text-align: center;
+    margin-left: 3.1%;
+    margin-top: 5px;
+    background-color:#639a67;
+
+    padding-right: 11%;
+    padding-left: 11%;
+    width: 71%;
+    font-size: 20px;
+}
+.texto{
+    
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+  
+}
+
+   
+
+.video{
+    display: flex;
+    width: 250%;
+    height: 100%;
+    padding: 0px;
+   
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 15px;
+    
+  
+}
+
+li {
+
+    float: left;
+    padding: 30px;
+   
+}
+li:hover{
+    background-color: #ddfee4;
+}
+
+#secaotres{
+    background-color:#92ad66;
+    width: 100%;
+  
+    text-align: center;
+    margin-left: 3.1%;
+    margin-top: 5px;
+    background-color:#639a67;
+
+    padding-right: 11%;
+    padding-left: 11%;
+    width: 71%;
+    font-size: 20px;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    #secao, #secaodois, # secaotres{
+        display: block;
+        float:none;
+        padding: 0;
+        width: 80%;
+        margin 10px auto;
+    }
+}
